@@ -1,0 +1,636 @@
+* {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Untitled';
+  src: url(assets/UntitledSansTest-Bold.otf);
+}
+
+@font-face {
+  font-family: 'UntReg';
+  src: url(assets/UntitledSansTest-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Styrene';
+  src: url(assets/StyreneBWeb-Regular.ttf);
+}
+
+p {
+  font-family: "Styrene", sans-serif;
+  font-size: 82px;
+}
+
+a {
+  text-decoration-color: #FFA800;
+  color: #838181;
+}
+
+h4 {
+  font-family: "Untitled", sans-serif;
+  font-size: 30px;
+}
+
+.head {
+  top: 0;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  
+}
+
+.home {
+  text-decoration: none;
+}
+
+.nav {
+  padding: 10px;
+  font-family: "Styrene", sans-serif;
+  width: 1000px;
+  margin: auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.wide {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  background-color: #F2F2F2;
+}
+
+#full {
+  
+}
+
+.bigbox {
+  height: 100vh;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.constraint {
+  width: 1000px;
+  margin: auto;
+}
+
+.heady {
+  width: 1000px;
+  margin: auto;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+
+#subtitle {
+  font-family: "Styrene", sans-serif;
+  font-size: 30px;
+}
+
+
+.flex_content {
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+
+.col_one {
+  
+}
+
+.col_two {
+
+}
+
+
+.work {
+  background-color: white;
+  margin-top: 5%;
+  box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
+}
+
+.work:hover {
+  
+}
+
+.pic {
+  background-image: url(assets/DAT04.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  border: 1px solid #E5E5E5;
+}
+
+.work_title {
+  padding: 3%;
+  border-bottom: 1px solid #E5E5E5;
+  font-family: "Untitled";
+  font-size: 24px;
+  background-color: white;
+   border-right: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+}
+
+.work_description {
+  padding: 3%;
+  background-color: white;
+  font-family: "UntReg", sans-serif;
+  font-size: 16px;
+  color: #838181;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #E5E5E5;
+   border-right: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+}
+
+.work_link {
+  padding: 3%;
+  font-family: "Styrene";
+  font-size: 16px;
+  display: inline-flex;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+}
+
+div[class*="link"] {
+  background-color: white;
+}
+
+#botnet {
+  background-image: url(assets/botnetphoto00.jpg);
+}
+
+#typecon {
+  background-image: url(assets/panel01.jpg);
+}
+
+.pub {
+  margin-top: 5%;
+  border-top: 1px solid #E5E5E5;
+  box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
+}
+
+.footer {
+  padding-top: 2.5vh;
+  
+}
+
+.copyright {
+  margin-top: 2%;
+  font-family: "Styrene", sans-serif;
+  font-size: 10px;
+}
+
+.dat {
+  
+}
+
+
+.social {
+
+}
+
+.social>div {
+  margin: 10px;
+  float: right;
+}
+
+#quote_box {
+  width: 500px;
+  margin: auto;
+}
+
+#quote_text {
+  font-family: "Styrene";
+  font-size: 24px;
+  color: #E5E5E5;
+  text-align: center;
+}
+
+#last {
+  margin-bottom: 5%;
+}
+
+#useful {
+  border-top: 1px solid #E5E5E5;
+}
+
+.socialnow:hover {
+  fill: #FFA800;
+}
+
+svg:hover .socialnow {
+  fill: #FFA800;
+}
+
+#job, #space, #cloud {
+  font-family: "Untitled", serif;
+  font-size: 80px;
+}
+
+#tracing {
+  background-image: url(assets/Trace_06.png);
+}
+
+
+.linktext {
+  position: relative;
+  top: -50px;
+  padding: 3%;
+  font-family: "Styrene";
+  font-size: 16px;
+  display: inline-flex;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+  z-index: 2;
+  margin-bottom: -50px;
+}
+
+/*work pages*//*work pages*//*work pages*//*work pages*//*work pages*//*work pages*//*work pages*/
+
+.background {
+  background-color: #F2F2F2;
+  width: 60%;
+  height: 100vh;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+}
+
+#working {
+  margin-top: 5%;
+  height: auto;
+}
+
+#wicked {
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+.work_words {
+  font-family: "UntReg", sans-serif;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+#symbol {
+  width: 100%;
+}
+
+.footnote {
+  width: 60%;
+  margin-left: 40%;
+  display: inline-flex;
+}
+
+.number {
+  font-family: "styrene", sans-serif;
+  font-size: 80px;
+}
+
+.note {
+  font-family: "styrene";
+  font-size: 10px;
+  padding-top: 5%;
+  padding-left: 10%;
+  width: auto;
+}
+
+#app_one {
+  width: 100%;
+}
+
+#app_two {
+  width: 100%;
+}
+
+.picy {
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
+  width: 98.5%;
+}
+
+#botwork {
+  background-color: white;
+  z-index: 2;
+}
+
+.margin {
+  padding-top: 20vh;
+}
+
+
+/*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*/
+
+.tracetop {
+  background-color: white;
+  padding-bottom: 5%;
+  box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
+  z-index: 5;
+}
+
+.tracepic {
+  width:  25%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+
+.tracetitle {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.tracer {
+  display: inline-flex;
+  margin-bottom: 8%;
+  margin-top: 8%;
+}
+
+.arrow {
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
+.midgrey {
+  background-color: #F2F2F2;
+  box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
+}
+
+.traceimg {
+  width:100%;
+  padding-top: 4%;
+  padding-bottom: 8%;
+}
+
+.featimg {
+  width: 100%;
+}
+
+.traceby {
+  width: 800px;
+  margin: auto;
+}
+
+.laststop {
+  width: 100%;
+   padding-top: 4%;
+  padding-bottom: 8%;
+}
+
+#mockups {
+  margin-bottom: 8%;
+}
+
+/*typecon*//*typecon*//*typecon*//*typecon*//*typecon*//*typecon*//*typecon*//*typecon*//*typecon*/
+
+.typeconheading {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.becky {
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 1%;
+  margin-bottom: 4%;
+}
+
+.typeconphone {
+  width: 20%;
+  margin: auto;
+}
+
+#phonehome {
+  width: 100%;
+}
+
+.typeconbox {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 0px;
+}
+
+.hey {
+  padding: 150px;
+  background-color: yellow;
+}
+
+.ho {
+  background-image: url(assets/Sabotage_05.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#less {
+ margin-top: 0;
+}
+
+#lesser {
+  background-color: white;
+}
+
+#middy {
+  width: 100%;
+}
+
+.reversetypeconbox {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 0px;
+}
+
+.zip {
+  background-image: url(assets/panel01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bottompic {
+  background-image: url(assets/Sabotage_05%202.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+#fine {
+  background-color: yellow;
+}
+
+#grip {
+  background-color: #F2F2F2;
+}
+
+#gript {
+  background-color: #F2F2F2;
+}
+
+
+
+
+/*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
+
+@media only screen and (max-width: 1000px) {
+  
+  .nav {
+    margin: auto;
+    width: 90%;
+  }
+  
+  .constraint {
+    margin: auto;
+    width: 90%;
+  }
+  
+  .heady {
+    margin: auto;
+    width: 90%;
+  }
+  
+  .flex_content {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+ 
+  p {
+    font-size:  40px;
+  }
+  
+  #job {
+    font-size: 40px;
+  }
+  
+  #space {
+    font-size: 40px;
+  }
+  
+  #cloud {
+    font-size: 40px;
+  }
+  
+  #quote_box {
+    width: 90%;
+    margin: auto;
+  }
+    
+  .social {
+    width: 161px;
+    margin: auto;
+  }
+
+  .copyright {
+    margin-top: 5%;
+    padding-top: 5%;
+    margin: auto;
+    width: 161px;
+    text-align: center;
+    font-family: "Styrene", sans-serif;
+    font-size: 10px;
+  }
+  
+  #read {
+    margin-bottom: 5%;
+  }
+  
+  #publication {
+    margin-top: 0%;
+  }
+  
+  .background {
+    width: 95%;
+    overflow-x: hidden;
+  }
+  
+  .footnote {
+    width: 90%;
+    margin-left: 2%;
+    display: inline-flex;
+  }
+  
+  
+  .traceby {
+    width: 100%;
+    margin: auto;
+  }
+
+  .tracetitle {
+    width: 100%;
+    margin: auto;
+  }
+  .tracepic {
+    width:  100%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 1%;
+  }
+
+  .tracer {
+    display: inline-flex;
+    margin-right: 8%;
+  }
+
+  .arrow {
+    margin-top: 13%;
+    margin-right: 5%;
+  }
+  
+  .typeconbox {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .reversetypeconbox {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .typeconheading {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .hey {
+    padding: 20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: yellow;
+  }
+  
+  .typeconphone {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .ho {
+    height: 60vh;
+  }
+  
+  .zip {
+    height: 60vh;
+  }
+  
+
+}
+
+
+
+
