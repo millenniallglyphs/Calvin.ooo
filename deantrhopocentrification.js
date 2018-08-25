@@ -3,7 +3,7 @@ var colbackground = ['zippo', 'link_1', 'link_2', 'link_3', 'link_4', 'link_5', 
 
 /*an array of quotes that can appear at the bottom*/
 
-var quotes = ['"We sprout new richness of design baroque apologies for Kaliyuga till Kether calls us home, hauls in the galaxies like some big fish.” –Diane Di Prima', '"Cyborgs for earthly survival" –Donna Haraway', '"its primary means and interests are not human discourse and human bodies but, rather, the calculation of all the world’s information and of the world itself as information." -Benjamin H. Bratton', '"Everything is, it seems, a stakeholder and is at stake."  -Benjamin H. Bratton', 'It is already turned loose. It is already coming. It cannot be called back. -Leslie Marmon Silko'];
+var quotes = ['"We sprout new richness of design baroque apologies for Kaliyuga till Kether calls us home, hauls in the galaxies like some big fish.” –Diane Di Prima', '"Cyborgs for earthly survival" –Donna Haraway', '"its primary means and interests are not human discourse and human bodies but, rather, the calculation of all the world’s information and of the world itself as information." -Benjamin H. Bratton', '"Everything is, it seems, a stakeholder and is at stake."  -Benjamin H. Bratton', '"It is already turned loose. It is already coming. It cannot be called back." -Leslie Marmon Silko'];
 
 /*words used on the landing page*/
 
