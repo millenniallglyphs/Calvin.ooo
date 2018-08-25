@@ -65,7 +65,7 @@ h4 {
 .bigbox {
   height: 100vh;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
+  /*scroll-snap-type: x mandatory;*/
 }
 
 .constraint {
@@ -77,7 +77,7 @@ h4 {
   width: 1000px;
   margin: auto;
   height: 100vh;
-  scroll-snap-align: start;
+  /*scroll-snap-align: start;*/
 }
 
 
@@ -327,6 +327,12 @@ svg:hover .socialnow {
   padding-top: 20vh;
 }
 
+
+.notenum {
+  font-size: 10px;
+  vertical-align: super;
+  font-family: "Untitled", sans-serif;
+}
 
 /*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*//*trace*/
 
