@@ -29,6 +29,7 @@ var random_words = quotes[Math.floor(Math.random() * quotes.length)]
 /*changing the color for the elements in the header*/
 
 document.getElementById('full').style.backgroundColor = random_pastel;
+document.getElementById('downarrow').style.stroke = random_dark;
 document.getElementById('fulltwo').style.backgroundColor = random_pastel_two;
 document.getElementById('title').style.color = random_dark;
 /*changing the color for all of the link boxes*/
