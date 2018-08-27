@@ -5,11 +5,13 @@
 @font-face {
   font-family: 'Untitled';
   src: url(assets/UntitledSansTest-Bold.otf);
+  src: url(assets/UntitledSansTest-Bold.woff) format("woff");
 }
 
 @font-face {
   font-family: 'UntReg';
   src: url(assets/UntitledSansTest-Regular.otf);
+  src: url(assets/UntitledSansTest-Regular.woff) format("woff");
 }
 
 @font-face {
@@ -101,6 +103,10 @@ h4 {
 
 .col_two {
 
+}
+
+#typetwo {
+  margin-top: 10vh;
 }
 
 
@@ -324,7 +330,7 @@ svg:hover .socialnow {
 }
 
 .margin {
-  padding-top: 20vh;
+  padding-top: 10vh;
 }
 
 
@@ -634,6 +640,16 @@ svg:hover .socialnow {
     height: 60vh;
   }
   
+  .trip {
+    width: 20px;
+  }
+  
+  .margin {
+  padding-top: 25vh;
+}
+  #typetwo {
+  margin-top: 2vh;
+}
 
 }
 
