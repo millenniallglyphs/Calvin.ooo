@@ -490,8 +490,189 @@ svg:hover .socialnow {
   background-color: #F2F2F2;
 }
 
+/*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*/
 
+.gify {
+  width: 300px;
+}
 
+#bitty {
+ background: #977eff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #977eff 0%, #cbbeff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #977eff 0%,#cbbeff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #977eff 0%,#cbbeff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.middy {
+  position: relative;
+  top: -200px;
+}
+
+#thevision {
+  margin-top: 20%;
+}
+
+.bitc {
+  font-family: "untitled", sans-serif;
+  color: #1B246F;
+}
+
+.triad {
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+}
+
+#value {
+  background-color: white;
+}
+
+.icona {
+  width: 100%;
+}
+
+#values {
+  background-color: white;
+  padding-top: 10%;
+}
+
+#persona {
+  padding-top: 10%;
+  margin-top: 10%;
+}
+
+.personabox {
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-gap: 0px;
+  background-color: white;
+  border: 1px solid #E5E5E5;
+  font-family: "untreg", sans-serif;
+  color: #C4C4C4;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  font-size: 12px;
+}
+
+.propic {
+  width: 100%;
+}
+
+.profile {
+  width: 100%;
+}
+
+.needs {
+  padding: 5%;
+  border-left: 1px solid #E5E5E5;
+}
+
+.biotext {
+  padding: 10%;
+}
+
+.measure {
+  width: 100%;
+  height: 15px;
+  border: 1px solid #E5E5E5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bar {
+  height: 13px;
+  width: 30%;
+  background-color: #9986E7;
+}
+
+#webapp {
+  width: 80%;
+}
+
+#mobileapp {
+  width: 90%;
+}
+
+#sm {
+  width: 70%;
+}
+
+#betha {
+  width: 80%;
+}
+
+#bethb {
+  width: 50%;
+}
+
+#bethc {
+  width: 85%;
+}
+
+#bethd {
+  width: 90%;
+}
+
+#persona {
+  background: #f1f2fd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f1f2fd 0%, #fce5e7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f1f2fd 0%,#fce5e7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f1f2fd 0%,#fce5e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.infra {
+  margin-top: 20%;
+}
+
+.rough {
+  width: 1000px;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.basket {
+  width: 60%;
+  margin: auto;
+}
+
+.sketching {
+  width: 100%;
+}
+
+.components {
+  background: #e5f9fc; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #e5f9fc 0%, #ebf2fc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #e5f9fc 0%,#ebf2fc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.pathdown {
+  position: relative;
+  width: 75px;
+  margin: auto;
+  top: -75px;
+}
+
+.drawnpath {
+  width: 100%;
+}
+
+.comp {
+  width: 100%;
+}
+
+.mercyplan {
+  width: 300px;
+  float: right;
+}
+
+.drkim {
+  width: 300px;
+  margin-bottom: 30%;
+}
 
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
 
