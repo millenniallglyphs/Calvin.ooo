@@ -501,6 +501,10 @@ svg:hover .socialnow {
   margin: auto;
 }
 
+#half {
+  height: 80vh;
+}
+
 .csty {
   font-family: "Styrene", sans-serif;
   color: white;
@@ -518,7 +522,7 @@ svg:hover .socialnow {
 }
 
 #bigtop {
-  padding-top: 25vh;
+  padding-top: 18vh;
 }
 
 #bitty {
@@ -542,6 +546,7 @@ background: linear-gradient(135deg, #cbbeff 2%,#b1a0ff 100%); /* W3C, IE10+, FF1
 background: -moz-linear-gradient(-45deg, #f3f8ff 0%, #f1f1f1 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg, #f3f8ff 0%,#f1f1f1 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg, #f3f8ff 0%,#f1f1f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  margin-bottom: -50px;
 }
 
 .bitc {
