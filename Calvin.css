@@ -39,7 +39,7 @@ h4 {
   position: fixed;
   background-color: white;
   width: 100%;
-  
+  z-index: 5;
 }
 
 .home {
@@ -171,6 +171,10 @@ div[class*="link"] {
 
 #typecon {
   background-image: url(assets/panel01.jpg);
+}
+
+#claims {
+  background-image: url(assets/bitclaimpreview01.jpg);
 }
 
 .pub {
@@ -492,15 +496,36 @@ svg:hover .socialnow {
 
 /*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*/
 
+.logotypetop {
+  width: 70%;
+  margin: auto;
+}
+
+.csty {
+  font-family: "Styrene", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.lgtp {
+  width: 100%;
+}
+
 .gify {
   width: 300px;
 }
 
+#bigtop {
+  padding-top: 25vh;
+}
+
 #bitty {
- background: #977eff; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #977eff 0%, #cbbeff 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #977eff 0%,#cbbeff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #977eff 0%,#cbbeff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: #cbbeff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #cbbeff 2%, #b1a0ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #cbbeff 2%,#b1a0ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #cbbeff 2%,#b1a0ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .middy {
@@ -510,6 +535,13 @@ background: linear-gradient(135deg, #977eff 0%,#cbbeff 100%); /* W3C, IE10+, FF1
 
 #thevision {
   margin-top: 20%;
+}
+
+#graded {
+  background: #f3f8ff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f3f8ff 0%, #f1f1f1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f3f8ff 0%,#f1f1f1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f3f8ff 0%,#f1f1f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .bitc {
@@ -531,6 +563,10 @@ background: linear-gradient(135deg, #977eff 0%,#cbbeff 100%); /* W3C, IE10+, FF1
 
 .icona {
   width: 100%;
+}
+
+.iconic {
+  height: 270px;
 }
 
 #values {
@@ -908,6 +944,99 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   #typetwo {
   margin-top: 2vh;
 }
+  
+  
+/*bitclaims*//*bitclaims*/ /*bitclaims*/ /*bitclaims*/ /*bitclaims*/ /*bitclaims*/ /*bitclaims*/ 
+  .triad {
+    display: grid;
+    grid-template-columns: auto;
+    width: 95%;
+  }
+  
+  .rough {
+    width: 95%;
+  }
+  
+  .basket {
+    width: 100%;
+  }
+  
+  .middy {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .iconic {
+    height: auto;
+  }
+  
+  #thevision {
+    margin-top: -120px;
+    margin-bottom: 30%;
+  }
+  
+  #lefert {
+    margin-top: 0;
+  }
+  
+  .pathdown {
+    width: 40px;
+    top: -50px;
+  }
+  
+  .mercyplan {
+    float: none;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .drkim {
+    float: none;
+    width: 300px;
+    margin: auto;
+    margin-top: -186px;
+    margin-bottom: 20%;
+  }
+  
+  .showviewb {
+    top: -80px;
+  }
+  
+  .showviewd {
+   top: -280px;
+  }
+  
+  .showviewe {
+   top: -250px;
+  }
+  
+  .showviewf {
+   top: -230px;
+  }
+  
+  .showviewg {
+   top: -230px;
+  }
+  
+  .showviewh {
+   top: -210px;
+  }
+  
+  .showviewi {
+   top: -190px;
+  }
+  
+  .rouge {
+    margin-top: 240px
+  }
+  
+  .blue {
+    top: -340px
+  }
+  
+  #lasting {
+    margin-bottom: -120px;
+  }
 
 }
 
