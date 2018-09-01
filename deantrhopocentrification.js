@@ -28,7 +28,7 @@ var random_words = quotes[Math.floor(Math.random() * quotes.length)]
 
 /*changing the color for the elements in the header*/
 
-document.getElementById('full').style.backgroundColor = random_pastel;
+/*document.getElementById('full').style.backgroundColor = random_pastel;*/
 document.getElementById('downarrow').style.stroke = random_dark;
 document.getElementById('fulltwo').style.backgroundColor = random_pastel_two;
 document.getElementById('title').style.color = random_dark;
@@ -79,6 +79,7 @@ onColor("sha", "link_9", Math.floor(Math.random() * pastel_colors.length));
 onColor("dvm", "link_10", Math.floor(Math.random() * pastel_colors.length));
 onColor("csm", "link_11", Math.floor(Math.random() * pastel_colors.length));
 onColor("rvl", "link_12", Math.floor(Math.random() * pastel_colors.length));
+onColor("claiming", "theclaim", Math.floor(Math.random() * pastel_colors.length));
 
 
 /*onColor(btnt, link_1);*/
@@ -89,11 +90,13 @@ document.getElementById("quote_text").innerHTML = random_words;
 
 
 
-setInterval(theSwitch, 750);
+/*setInterval(theSwitch, 750);*/
 setInterval(theWitch, 1500);
 
 var i = 0;
 var r = 0;
+
+/*
 
 function theSwitch( ){
  i++
@@ -102,6 +105,7 @@ function theSwitch( ){
   }
  document.getElementById("job").innerHTML = job[i];
 }
+*/
 
 function theWitch( ){
  r++
