@@ -69,7 +69,6 @@ onColor("btnt", "link_1", Math.floor(Math.random() * pastel_colors.length));
 onColor("scndint", "zippo", Math.floor(Math.random() * pastel_colors.length));
 onColor("tpcn", "link_2", Math.floor(Math.random() * pastel_colors.length));
 onColor("trc", "link_13", Math.floor(Math.random() * pastel_colors.length));
-//onColor("dtb", "link_3", Math.floor(Math.random() * pastel_colors.length));
 onColor("rdos", "link_4", Math.floor(Math.random() * pastel_colors.length));
 onColor("dzp", "link_5", Math.floor(Math.random() * pastel_colors.length));
 onColor("rbt", "link_6", Math.floor(Math.random() * pastel_colors.length));
