@@ -66,6 +66,7 @@ function slideOut(plume) {
 /*functions caling individual dom elements by id*/
 
 onColor("btnt", "link_1", Math.floor(Math.random() * pastel_colors.length));
+onColor("rcn", "link_14", Math.floor(Math.random() * pastel_colors.length));
 onColor("scndint", "zippo", Math.floor(Math.random() * pastel_colors.length));
 onColor("tpcn", "link_2", Math.floor(Math.random() * pastel_colors.length));
 onColor("trc", "link_13", Math.floor(Math.random() * pastel_colors.length));
