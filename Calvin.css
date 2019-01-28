@@ -856,7 +856,7 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   width: 1px;
   margin: auto;
   background-color: black;
-  height: 130vh;
+  height: 70vw;
   z-index: 3;
 }
 
@@ -894,8 +894,12 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
 }
 
 #extension {
-  width: 80%;
+  width: 360px;
   margin: auto;
+}
+
+#link_me {
+  margin-bottom: 20vh;
 }
 
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
@@ -1054,6 +1058,66 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
 }
   #typetwo {
   margin-top: 2vh;
+}
+  
+/*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*/  
+  
+.aba_green {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  height: 30vh;
+  z-index: 1;
+}
+  
+.aba_title {
+  margin: auto; 
+  width: 100%;
+  padding-top: 12vw;
+  text-align: center;
+  font-family: "UntReg", sans-serif;
+  font-size: 6vh;
+}
+  
+.aba_line {
+  position: absolute;
+  top: 26vh;
+  left: 49%;
+  width: 1px;
+  margin: auto;
+  background-color: black;
+  height: 80vw;
+  z-index: 3;
+}
+  
+.aba_toppic {
+  position: relative;
+  margin-top: -5vh;
+  z-index: 0;
+  clear: both;
+}
+  
+.aba_sub {
+  position: relative;
+  top: -5vh;
+  margin: auto; 
+  width: 90%;
+  padding-top: 25vh;
+  text-align: center;
+  font-family: "UntReg", sans-serif;
+  font-size: 8vw;
+  margin-bottom: 10vh;
+}
+  
+.aba_work {
+  position: relative;
+  width: 92.5%;
+  margin: auto;
+  z-index: 2;
+}
+  
+.aba_link {
+  width: 100%;
 }
   
   
