@@ -1066,7 +1066,7 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   position: relative;
   width: 80%;
   margin: auto;
-  height: 30vh;
+  height: 32vw;
   z-index: 1;
 }
   
@@ -1076,12 +1076,12 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   padding-top: 12vw;
   text-align: center;
   font-family: "UntReg", sans-serif;
-  font-size: 6vh;
+  font-size: 10vw;
 }
   
 .aba_line {
   position: absolute;
-  top: 26vh;
+  top: 30vw;
   left: 49%;
   width: 1px;
   margin: auto;
@@ -1102,11 +1102,11 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   top: -5vh;
   margin: auto; 
   width: 90%;
-  padding-top: 25vh;
+  padding-top: 30vw;
   text-align: center;
   font-family: "UntReg", sans-serif;
   font-size: 8vw;
-  margin-bottom: 10vh;
+  margin-bottom: 5vw;
 }
   
 .aba_work {
