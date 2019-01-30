@@ -80,6 +80,7 @@ onColor("dvm", "link_10", Math.floor(Math.random() * pastel_colors.length));
 onColor("csm", "link_11", Math.floor(Math.random() * pastel_colors.length));
 onColor("rvl", "link_12", Math.floor(Math.random() * pastel_colors.length));
 onColor("claiming", "theclaim", Math.floor(Math.random() * pastel_colors.length));
+onColor("abaing", "abat", Math.floor(Math.random() * pastel_colors.length));
 
 
 /*onColor(btnt, link_1);*/

@@ -124,7 +124,7 @@ h4 {
   background-image: url(assets/DAT04.jpg);
   background-size: cover;
   background-position: center;
-  height: 180px;
+  height: 260px;
   border: 1px solid #E5E5E5;
 }
 
@@ -792,6 +792,12 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
 
 /*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*/
 
+#abaprev {
+    background-image: url(assets/ensemblesmall.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
 .aba_work {
   width: 1000px;
   margin: auto;
@@ -1061,6 +1067,7 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
 }
   
 /*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*/  
+  
   
 .aba_green {
   position: relative;
