@@ -908,6 +908,18 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   margin-bottom: 20vh;
 }
 
+#lowkey {
+  margin-bottom: 0;
+}
+
+#highkey {
+  margin-bottom: 0;
+}
+
+#upshift {
+  margin-top: -20;
+}
+
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
 
 @media only screen and (max-width: 1000px) {
