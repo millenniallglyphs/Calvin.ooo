@@ -34,6 +34,221 @@ h4 {
   font-size: 30px;
 }
 
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.topheading {
+  height: 50px;
+  width: 85%;
+  position: fixed;
+  margin-left: 7.25%;
+  padding: 10px;
+  background-color: white;
+  z-index: 8;
+  border-radius: 0px 0px 8px 8px;
+  top: 0;
+}
+
+.swift {
+  font-size: 3vh;
+  font-family: "Untitled", sans-serif;
+  margin: 0;
+}
+
+#thezep {
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+
+#zepcontain {
+  width: 85%;
+  margin-left: 7.25%;
+  padding-top: 20vh;
+  display: block;
+  position: relative;
+}
+
+#titlezep {
+  display: inline-block;
+  font-family: "Untitled", sans-serif;
+  color: white;
+  font-size: 17vh;
+  z-index: 2;
+}
+
+#zepright {
+  display: inline-block;
+  width: 40%;
+}
+
+#buttonzep {
+  float: right;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-family: "Untitled", sans-serif;
+  color: white;
+}
+
+#downmore {
+  margin-top: 18vh;
+  text-align: center;
+  font-family: "Untitled", sans-serif;
+  color: white;
+}
+
+#downarrow {
+  margin-top: 20px;
+}
+
+.aboutme {
+  font-family: "Untitled", sans-serif;
+  font-size: 7vh;
+  width: 85%;
+  margin-left: 7.25%;
+  margin-top: 14vh;
+  display: block;
+  margin-bottom: 14vh;
+  padding: 10px;
+}
+
+.contentcontrol {
+  display: grid;
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-template-columns: 50% 50%;
+  background-color: black;
+}
+
+.showmywork {
+  
+  height: 50vh;
+  background-color: black;
+  display: inline-grid;
+  width: 100%;
+}
+
+.contenttitlebox {
+  margin-top: -18vh;
+  display: block;
+  height: 80px;
+  margin-left: 7.25%;
+  width: 85%;
+  opacity: none;
+  z-index: 5;
+}
+
+.contentitle {
+  font-family: "Untitled", sans-serif;
+  margin-top: 0;
+  width: 90%;
+  display: inline-block;
+  color: white;
+  font-size: 6vh;
+}
+
+.contentsubtitle {
+  font-family: "Untitled", sans-serif;
+  margin-top: 0;
+  width: 400px;
+  color: white;
+  height: 20px;
+  clear: both;
+}
+
+.contentarrow {
+  display: inline-block;
+  width: 40px;
+  float: right;
+}
+
+#abacusabc {
+  background-image: url(assets/ensemblesmall.jpg);
+  background-size: cover;
+}
+
+#bigbitclaims {
+  background-image: url(assets/bitclaimpreview01.png);
+  background-size: cover; 
+}
+
+#secondshowing{
+  background-image: url(assets/blockchainp2_05.jpg);
+  background-size: cover;
+}
+
+#showbot {
+  background-image: url(assets/botnet00.jpg);
+  background-size: cover;
+}
+
+#showtypecon {
+  background-image: url(assets/Sabotage_05.jpg);
+  background-size: cover;
+}
+
+#traceshow {
+  background-image: url(assets/Trace_06.1.jpg);
+  background-size: cover;
+}
+
+.contentcolor {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  opacity: 0.4;
+  transition: opacity 1s;
+}
+
+.showmywork:hover > .contentcolor {
+  opacity: 0.1;
+}
+
+.bigmovie {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  max-width: 100%;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.writingspotlight {
+  background-color: #F7F7F7;
+}
+
+.writingholder {
+  padding-top: 14vh;
+  margin-left: 7.25%;
+  width: 85%;
+  padding-bottom: 14vh;
+}
+
+.whiteboxer {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+}
+
+.contentitlea {
+  font-family: "Untitled", sans-serif;
+  font-size: 6vh;
+  width: 80%;
+  display: inline-block;
+}
+
+.fuckit {
+  text-decoration: none;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
 .head {
   top: 0;
   position: fixed;
@@ -923,6 +1138,211 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
 
 @media only screen and (max-width: 1000px) {
+  
+  /*transition to one column*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.topheading {
+  height: 50px;
+  width: 90%;
+  position: fixed;
+  margin-left: 2.5%;
+}
+
+.swift {
+  font-size: 3vh;
+  font-family: "Untitled", sans-serif;
+  margin: 0;
+}
+
+#thezep {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  background-image: url(assets/candle.jpg);
+  background-size: cover; 
+}
+
+#zepcontain {
+  width: 85%;
+  margin-left: 7.25%;
+  padding-top: 20vh;
+  display: block;
+  position: relative;
+}
+
+#titlezep {
+  display: inline-block;
+  font-family: "Untitled", sans-serif;
+  color: white;
+  width: 100%;
+  font-size: 10vh;
+  z-index: 2;
+}
+
+#zepright {
+  display: inline-block;
+  width: 100%;
+  margin-top: 8vh;
+}
+
+#buttonzep {
+  float: left;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-family: "Untitled", sans-serif;
+  color: white;
+}
+
+#downmore {
+  margin-top: 18vh;
+  text-align: center;
+  font-family: "Untitled", sans-serif;
+  color: white;
+}
+
+#downarrow {
+  margin-top: 20px;
+}
+
+.aboutme {
+  font-family: "Untitled", sans-serif;
+  font-size: 4.5vh;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 14vh;
+  display: block;
+  margin-bottom: 14vh;
+  padding: 10px;
+}
+
+.contentcontrol {
+  display: grid;
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-template-columns: 100%;
+  background-color: black;
+}
+
+.showmywork {
+  
+  height: 50vh;
+  background-color: black;
+  display: inline-grid;
+  width: 100%
+}
+
+.contenttitlebox {
+  margin-top: -20vh;
+  display: block;
+  height: 80px;
+  margin-left: 2.5%;
+  width: 95%;
+  opacity: none;
+  z-index: 5;
+}
+
+.contentitle {
+  font-family: "Untitled", sans-serif;
+  margin-top: 0;
+  width: 84%;
+  display: inline-block;
+  color: white;
+  font-size: 5vh;
+  float: left
+}
+
+.contentsubtitle {
+  font-family: "Untitled", sans-serif;
+  margin-top: 0;
+  width: 80%;
+  color: white;
+  height: 20px;
+  clear: both;
+}
+
+.contentarrow {
+  display: inline-block;
+  width: 40px;
+  float: right;
+}
+
+#abacusabc {
+  background-image: url(assets/ensemblesmall.jpg);
+  background-size: cover;
+}
+
+#bigbitclaims {
+  background-image: url(assets/bitclaimpreview01.png);
+  background-size: cover; 
+}
+
+#secondshowing{
+  background-image: url(assets/blockchainp2_05.jpg);
+  background-size: cover;
+}
+
+#showbot {
+  background-image: url(assets/botnet00.jpg);
+  background-size: cover;
+}
+
+#showtypecon {
+  background-image: url(assets/Sabotage_05.jpg);
+  background-size: cover;
+}
+
+#traceshow {
+  background-image: url(assets/Trace_06.1.jpg);
+  background-size: cover;
+}
+
+.contentcolor {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  opacity: 0.4;
+  transition: opacity 1s;
+}
+
+.showmywork:hover > .contentcolor {
+  opacity: 0.1;
+}
+
+.bigmovie {
+  display: none;
+}
+
+.writingspotlight {
+  background-color: #F7F7F7;
+}
+
+.writingholder {
+  padding-top: 14vh;
+  margin-left: 0%;
+  width: 100%;
+  padding-bottom: 14vh;
+}
+
+.whiteboxer {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+}
+
+.contentitlea {
+  font-family: "Untitled", sans-serif;
+  font-size: 5vh;
+  width: 80%;
+  display: inline-block;
+}
+  
+  .fuckit {
+    text-decoration: none;
+  }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
   
   .nav {
     margin: auto;
